@@ -62,7 +62,7 @@ describe( "Square", () => {
 
     expect( square.area ).to.eq( 25 )
   } )
-
+ 
   it( "checks for valid square", () => {
     let square = new Square( [ 5, 5, 5, 5 ] )
     let square2 = new Square( [ 5, 4, 3, 2 ] )
